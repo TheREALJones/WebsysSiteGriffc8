@@ -1,0 +1,60 @@
+playlist {
+
+}
+
+img{
+	height:300px;
+	width:300px;
+}
+
+playlist{
+	display: :block;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+song {
+	display: block;
+	margin-bottom: 20px;
+}
+
+name {
+	display: block;
+}
+
+artist {
+	display: block;
+	font-size: 120%;
+	color: blue;
+}
+
+album {
+	display: block;
+	font-style:italic;
+}
+
+albumcover {
+	display: block;
+}
+
+year {
+	display: block;
+}
+
+genres{
+	display: block;
+}
+
+genre{
+	display: block;
+	margin-left: 10pt;
+	font-size: 85%;
+}
+
+genre:before{
+	content: "-"
+}
+
+site{
+	display: block;
+}

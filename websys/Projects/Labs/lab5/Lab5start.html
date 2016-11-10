@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lab 5 - Start</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!-- Edit #4 -->
+		<script>
+			$(document).ready(function() {	
+				/* Edit #2 */	
+				for (var i = 1; i < 10000; i++) {
+					/* Edit #5 */
+					$("ul#foo").append("<li>"+i+": This is an item in the list. Click to make me disappear.</li>");
+				}
+				
+				$("#foo").click(function(e){
+					if(e.target.tagName =="LI")
+					{
+						$(e.target).hide(400);
+					}
+				});
+
+				$("#showall").click(function(e) {
+					var ctr=0;
+					/* Edit #3 */
+					$("li").each(function() {
+						if($(this).is(":hidden")){ 
+							$(this).show(400);
+							ctr++;
+						}
+					});
+					if(ctr==1){
+						$("#counter").html(ctr+" item restored.");
+					}
+					else{
+						$("#counter").html(ctr+" items restored.");
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="bar">
+			<button href="#" id="showall">Show All</button>
+			<p id="counter"></p>
+			<ul id="foo" class="bar" style="list-style: none;">
+			<style>
+				body {
+				  /*Edit #1*/
+				  background-color:lightblue;
+				}
+			</style>
+		</div>
+	</body>
+</html>

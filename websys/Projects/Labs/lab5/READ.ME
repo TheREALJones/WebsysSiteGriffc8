@@ -1,0 +1,8 @@
+Part 2:
+1. The background is a picture as opposed to just the color blue. That slowed down the run time.
+2. There was a loop that posted the 5000 list items and also what I assume is 5000 additional list items in the body so I deleted the extra body list items and doubled the amount of times it looped.
+3. The program originally made every element do the "show" animation even if it was already shown. That made the loop too long so I made an if statement that only ran the "show" function on things that needed to be shown.
+4. I removed the extra style tag from the document that said the the tyling was in css because it wasn't required and took time to parse through.
+5. Searching for a div and then searching for the id foo takes too much time because it is eaier to find an id than an element and there is only one id so there is no need to specify
+
+I also added number counters to the lines so that they can be more easily identified when hidden or brought back. I tried to do it in the fastest way possible. I changed the "show all" anchor element to a button to make it look more official and had it display the number of items brought back. 

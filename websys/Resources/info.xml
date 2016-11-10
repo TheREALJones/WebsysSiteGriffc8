@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<projects>
+	<work id="Home">
+		<page>
+			<name>Homework 1</name>
+			<description>HTML Resume</description>
+			<location>\Projects\Homework\HW1<location>
+		</page>
+	</work>
+	<work id="Lab">
+		<page>
+			<name>Lab 1</name>
+			<description>AMP Stack</description>
+			<location>\Projects\Labs\lab1<location>
+		</page>
+		<page>
+			<name>Lab 2</name>
+			<description>HTML, XML and CSS</description>
+			<location>\Projects\Labs\lab2<location>
+		</page>
+		<page>
+			<name>Lab 3</name>
+			<description>Javascript and the DOM</description>
+			<location>\Projects\Labs\lab3<location>		
+		</page>
+	</work>
+</projects>

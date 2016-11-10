@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ConnorGriffinlab2part4.css"?>
+<playlist xmlns:html="http://www.w3.org/1999/xhtml" >
+	<song>
+		<name>Houdini</name>
+		<artist>Foster the People</artist>
+		<album>Torches</album>
+		<year>2011</year>
+		<genres>
+			<genre>Alternative/Indie Rock</genre>
+			<genre>Indie Electronic</genre>
+			<genre>Indie Pop</genre>
+			<genre>Neo-Psychedelia</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/torches-mw0002135149">"http://www.allmusic.com/album/torches-mw0002135149"</html:a></site>
+		<albumcover><html:img src="http://hwcdn.allmusic.com/release-covers/500/0003/344/0003344477.jpg"/></albumcover>
+	</song>
+	<song>
+		<name>Scenes From an Italian Restaurant</name>
+		<artist>Billy Joel</artist>
+		<album>Piano Man</album>
+		<year>1973</year>
+		<genres>
+			<genre>Album Rock</genre>
+			<genre>Contemporary Pop/Rock</genre>
+			<genre>Singer/Songwriter</genre>
+			<genre>Soft Rock</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/piano-man-mw0002012463">"http://www.allmusic.com/album/piano-man-mw0002012463"</html:a></site>
+		<albumcover><html:img src="https://upload.wikimedia.org/wikipedia/en/5/58/Billy_Joel_-_Piano_Man.jpg"/></albumcover>
+	</song>
+	<song>
+		<name>Welcome to Tally Hall</name>
+		<artist>Tally Hall</artist>
+		<album>Marvin's Marvelous Mechanical Museum</album>
+		<year>2005</year>
+		<genres>
+			<genre>Alternative/Indie Rock</genre>
+			<genre>Indie Rock</genre>
+			<genre>Indie Pop</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/marvins-marvelous-mechanical-museum-mw0000449149">"http://www.allmusic.com/album/marvins-marvelous-mechanical-museum-mw0000449149"</html:a></site>
+		<albumcover><html:img src="http://cps-static.rovicorp.com/3/JPG_500/MI0002/376/MI0002376560.jpg?partner=allrovi.com"/></albumcover>
+	</song>
+	<song>
+		<name>Dashboard</name>
+		<artist>Modest Mouse</artist>
+		<album>We were Dead Before the Ship Even Sank</album>
+		<year>2007</year>
+		<genres>
+			<genre>Alternative/Indie Rock</genre>
+			<genre>Indie Rockc</genre>
+			<genre>Alternative Pop/Rock</genre>
+			<genre>Noise Pop</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/we-were-dead-before-the-ship-even-sank-mw0000483736">"http://www.allmusic.com/album/we-were-dead-before-the-ship-even-sank-mw0000483736"</html:a></site>
+		<albumcover><html:img src="http://hwcdn.allmusic.com/release-covers/500/0000/577/0000577564.jpg"/></albumcover>
+	</song>
+	<song>
+		<name>Remedy (I Won't Worry)</name>
+		<artist>Jason Mraz</artist>
+		<album>Waiting for my Rocket to Come</album>
+		<year>2002</year>
+		<genres>
+			<genre>Adgenrest Alternative Pop/Rock</genre>
+			<genre>Alternative/Indie Rock</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/waiting-for-my-rocket-to-come-mw0000230291">"http://www.allmusic.com/album/waiting-for-my-rocket-to-come-mw0000230291"</html:a></site>
+		<albumcover><html:img src="http://cps-static.rovicorp.com/3/JPG_500/MI0000/369/MI0000369669.jpg?partner=allrovi.com"/></albumcover>
+	</song>
+	<song>
+		<name>Australia</name>
+		<artist>The Shins</artist>
+		<album>Wincing the Night Away</album>
+		<year>2007</year>
+		<genres>
+			<genre>Alternative Pop/Rock</genre>
+			<genre>Alternative/Indie Rock</genre>
+			<genre>Indie Pop</genre>
+			<genre>Indie Rock</genre>
+		</genres>
+		<site><html:a href="http://www.allmusic.com/album/wincing-the-night-away-mw0000735777/releases">"http://www.allmusic.com/album/wincing-the-night-away-mw0000735777/releases"</html:a></site>
+		<albumcover><html:img src="http://cps-static.rovicorp.com/3/JPG_500/MI0000/685/MI0000685513.jpg?partner=allrovi.com"/></albumcover>
+	</song>
+</playlist>

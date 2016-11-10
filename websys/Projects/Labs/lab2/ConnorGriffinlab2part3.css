@@ -1,0 +1,58 @@
+div {
+	display: inline-block;
+}
+
+.list {
+	border: #090909 solid 3px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.pic {
+	background-size: 400px 400px;
+	height: 400px;
+	width: 400px;
+}
+
+
+.description {
+	opacity: 0;
+	height: 330px;
+	width: 330px;
+	margin-top: 35px;
+	padding:2%;
+}
+
+.description:hover {
+	background: rgba(255, 255, 255, 0.85);
+	opacity: 1;
+}
+
+.title {
+	font-variant: small-caps;
+}
+
+.artist {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.album {
+	width: 10em;
+	font-style: italic;
+	float: right; 
+}
+
+#fav {
+	color: green;
+}
+
+.small {
+	font-size: 80%;
+	float: left;
+	text-align: left;
+}
+
+li:before {
+	content:"-";
+}

@@ -1,0 +1,63 @@
+body{
+	background-color: peru;
+}
+
+h1 {
+	font-size: 40pt;
+}
+
+h3{
+	margin-bottom: 7pt;
+}
+
+h4{
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+}
+
+h5{
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+p{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li:before{
+	content:"-";
+}
+
+.title{
+	color: #990000;
+	font-variant: small-caps;
+}
+
+#Doc{
+	width: 612pt;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	padding:5%;
+	border: #4d3000 solid 5pt;
+	border-bottom-color:#ffe699; 
+	border-right-color:#ffe699;
+	background-color: #FFF6E6;
+	color:#4d3000;
+}
+
+#Left{
+	width: 65%;
+	display: inline-block;
+}
+
+#Right{
+	width:30%;
+	display: inline-block;
+	float:right;
+}

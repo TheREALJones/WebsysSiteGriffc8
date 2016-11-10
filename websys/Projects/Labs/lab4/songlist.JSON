@@ -1,0 +1,16 @@
+{
+	"song" : {
+		"name" : "Houdini",
+		"artist" : "Foster the People",
+		"album" : "Torches",
+		"year" : "2011",
+		"genres" : [
+			{"genre" : "Alternative/Indie Rock"},
+			{"genre" : "Indie Electronic"},
+			{"genre" : "Indie Po"},
+			{"genre" : "Neo-Psychedelia"}
+		],
+		"site" : "http://www.allmusic.com/album/torches-mw0002135149",
+		"albumcover" : "http://hwcdn.allmusic.com/release-covers/500/0003/344/0003344477.jpg"
+	}
+}	
