@@ -1,0 +1,6 @@
+README
+This assignment was interesting. After the initial hurdle of getting the AJAX up and running I dealt with learning Bootstrap and JQueryUI. Both are very useful and very user friendly. I really appreciate that about it. I like how Bootstrap is built so that it makes developing for mobile websites very easy. I like the mobile-first mentality that it has going on. One thing that I have noticed is that, excluding the mobile bit, both libraries seem to be very similar. It looks, at a glance like JqueryUI is just a beefier version of bootstrap. Obviously there are reasons to use both but I was personally wondering if there is anything that seperates them. I did have a lot of trouble with learning these two new things and incorporating them into my website. I tried to use equal amounts of both in making the page look as good as possible. Altogether I'm glad I learned the things in this lab.
+
+P.S. I don't know how many points I'm going to get on this but this is the best I could do as of right now. And while this looks like it could have been done in minutes, this took days. It will (hopefully) take much shorter in the future because I'm more comfortable with it now.
+
+P.P.S. I made a custom JQueryUI Rollout for this lab in order to fit in with the style of the homepage. So that's cool. 

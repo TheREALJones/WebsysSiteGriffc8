@@ -2,16 +2,60 @@
 <html>
 	<header>
 		<title>WebSys - Connor Griffin</title>
-		<link rel="stylesheet" type="text/css" href="Resources/indexcss.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</header>
 	<body>
-		<div id="Doc">
-			<h2>WebSys - Connor Griffin</h2>
+		<!-- Everything is contained within a single container so that it responds properly to resizing -->
+		<div id="doc" class="container">		
+			<div class="page-header"><h2>WebSys - Connor Griffin</h2></div>
 			<p>The one stop shop for all your Web Systems needs.</p>
-			<div id="Labs"></div>
-			<div id="Homework"></div>
+			<!-- draws attention to the menu -->
+			<div class="jumbotron">
+				<!-- Menu made in JQueryUI, gets filled with AJAX -->
+				<legend>Projects Menu</legend>
+				<ul style="width:100px;" id="menu">
+					<li><div>Homework</div>
+						<ul class="homework">
+						</ul>
+					</li>
+					<li><div>Labs</div>
+						<ul class="labs">
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<h2>Bootstrap Menu</h2>
+			<!-- Slightly different menu made in JQueryUI, gets filled with the same AJAX -->
+			<div class="btn-group btn-group-justified">
+				<div class="btn-group">
+					<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Homework<span class="caret"></span></button>
+					<ul class="dropdown-menu homework" role="menu"></ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Labs<span class="caret"></span></button>
+					<ul class="dropdown-menu labs" role="menu"></ul>
+				</div>
+			</div>
 		</div>
 	</body>
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Jquery and AJAX -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="Resources/indexjs.js"></script>
+	
+	<!-- JqueryUI -->
+	<script src="/Resources/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+	<script src="/Resources/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<link href="/Resources/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+	<script>$( "#menu" ).menu();</script>
+
+	<!-- General CSS -->
+	<link rel="stylesheet" type="text/css" href="Resources/indexcss.css" />
 </html>

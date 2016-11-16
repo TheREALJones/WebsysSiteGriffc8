@@ -1,3 +1,3 @@
 # WebsysSiteGriffc8
 
-Dank memes ahoy
+This is the website for Websys Created by the Blood, Sweat, Tears and acceptable, though not particularly inspiring grade-point-average of Connor Griffin. It was started with Quiz 1 and expanded in Lab 7. It contains all of the labs and homeworks done thus far in the class as well as a brief foray into Bootstrap and JQueryUI. It was truly difficult to make this website due to a series of bugs and having to learn the content but it is doe now and that is what matters. 

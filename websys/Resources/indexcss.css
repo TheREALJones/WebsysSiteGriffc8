@@ -17,7 +17,7 @@ p{
 	margin-bottom:0;
 }
 
-#Doc{
+#doc{
 	width: 612pt;
 	margin-right: auto;
 	margin-left: auto;
@@ -30,18 +30,18 @@ p{
 	color:#4d3000;
 }
 
-#Labs{
+#labs{
 	width: 26%;
 	display: inline-block;
 	float: left;
 }
 
-#Homework{
+#homework{
 	width: 26%;
 	display: inline-block;
 }
 
-#Classwork{
+#classwork{
 	width:26%;
 	display: inline-block;
 	float:right;

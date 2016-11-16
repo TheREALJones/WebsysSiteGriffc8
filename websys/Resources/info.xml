@@ -4,24 +4,64 @@
 		<page>
 			<name>Homework 1</name>
 			<description>HTML Resume</description>
-			<location>\Projects\Homework\HW1<location>
+			<location>\Projects\Homework\HW1</location>
+		</page>
+		<page>
+			<name>Homework 2</name>
+			<description>Hex Color Game</description>
+			<location>\Projects\Homework\HW2</location>
 		</page>
 	</work>
 	<work id="Lab">
 		<page>
 			<name>Lab 1</name>
 			<description>AMP Stack</description>
-			<location>\Projects\Labs\lab1<location>
+			<location>\Projects\Labs\lab1</location>
 		</page>
 		<page>
 			<name>Lab 2</name>
 			<description>HTML, XML and CSS</description>
-			<location>\Projects\Labs\lab2<location>
+			<location>\Projects\Labs\lab2</location>
 		</page>
 		<page>
 			<name>Lab 3</name>
 			<description>Javascript and the DOM</description>
-			<location>\Projects\Labs\lab3<location>		
+			<location>\Projects\Labs\lab3</location>		
+		</page>
+		<page>
+			<name>Lab 4</name>
+			<description>AJAX/JSON</description>
+			<location>\Projects\Labs\lab4</location>
+		</page>
+		<page>
+			<name>Lab 5</name>
+			<description>Front End Optimization</description>
+			<location>\Projects\Labs\lab5</location>
+		</page>
+		<page>
+			<name>Lab 6</name>
+			<description>PHP</description>
+			<location>\Projects\Labs\lab6</location>		
+		</page>
+		<page>
+			<name>Lab 7</name>
+			<description>Website and Bootstrap</description>
+			<location>\Projects\Labs\lab7</location>
+		</page>
+		<page>
+			<name>Lab 8</name>
+			<description>SQL</description>
+			<location>\Projects\Labs\lab8</location>
+		</page>
+		<page>
+			<name>Lab 9</name>
+			<description>PHP and PDO</description>
+			<location>\Projects\Labs\lab9</location>	
+		</page>
+		<page>
+			<name>Lab 10</name>
+			<description>N/A</description>
+			<location>\Projects\Labs\lab10</location>
 		</page>
 	</work>
 </projects>

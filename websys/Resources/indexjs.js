@@ -6,11 +6,28 @@ $(document).ready(function() {
 		dataType: "xml",
 		//if it works add all the info to its corresponding place
 		success: function(xml) {
-		var xmlDoc = $.parseXML(xml),
-		$xml = $(xmlDoc);
-        $xml.find('work[id="classwork"]').each(function () {
-            $xml.find('page').each(function () {
-            	$("#homework").append($(this).text() + "<br />");
+		var $xml = $(xml);
+        //adds every element in the "Home" work elements to the html as link list items
+        //in the "homework" list 
+        $xml.find('work[id="Home"]').each(function () {
+            $(this).find('page').each(function () {
+            	$(".homework").append(
+                    "<li><a href=" +
+                    $(this).find('location').text() + ">" +
+                    $(this).find('name').text() + ": " +
+                    $(this).find('description').text()  + "</a></li>"
+            	);
+        	});
+        });
+        //does the same as the above bit but for labs.
+        $xml.find('work[id="Lab"]').each(function () {
+            $(this).find('page').each(function () {
+            	$(".labs").append(
+            		"<li><a href=" +
+                    $(this).find('location').text() + ">" +
+                    $(this).find('name').text() + ": " +
+                    $(this).find('description').text()  + "</a></li>"
+            	);
         	});
         });
 		},
